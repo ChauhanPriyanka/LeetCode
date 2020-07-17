@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6001A60F-2DC1-437B-8026-1B7A1A3B5623}</ProjectGuid>
+    <RootNamespace>leetcode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Solution.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1035_UncrossedLine.cpp" />
+    <ClCompile Include="1136_ParrallelCourse.cpp" />
+    <ClCompile Include="155_MinStack.cpp" />
+    <ClCompile Include="190_ReversingBit.cpp" />
+    <ClCompile Include="322_CoinChange.cpp" />
+    <ClCompile Include="368_LargestDivisibleSubset.cpp" />
+    <ClCompile Include="468_ValidateIPAddress.cpp" />
+    <ClCompile Include="76_ClimbingStairs.cpp" />
+    <ClCompile Include="95_UniqueBST_II.cpp" />
+    <ClCompile Include="787_CheapesTFlightKStop_BellmonFord.cpp" />
+    <ClCompile Include="787_CheapestFlightKStop_BFS.cpp" />
+    <ClCompile Include="39_CombinationSum.cpp" />
+    <ClCompile Include="787_CheapesTFlightKStop_DFS.cpp" />
+    <ClCompile Include="787_CheapesTFlightKStop_DijktrasAlgo.cpp" />
+    <ClCompile Include="EvaluateDivisionGraph.cpp" />
+    <ClCompile Include="GFGDScpp.cpp" />
+    <ClCompile Include="gRAPH.cpp" />
+    <ClCompile Include="LeetCode.cpp" />
+    <ClCompile Include="199_BinarySearchRightView.cpp" />
+    <ClCompile Include="LeetCodeGoogle.cpp" />
+    <ClCompile Include="LongestPlaindrome.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
+    <ClCompile Include="MaximumPath.cpp" />
+    <ClCompile Include="505_MazeII.cpp" />
+    <ClCompile Include="Prison.cpp" />
+    <ClCompile Include="ReverseWords.cpp" />
+    <ClCompile Include="SameSentence.cpp" />
+    <ClCompile Include="Solution.cpp" />
+    <ClCompile Include="525_ContigousArray.cpp" />
+    <ClCompile Include="SpiralMatrix.cpp" />
+    <ClCompile Include="StringOps.cpp" />
+    <ClCompile Include="SubsetGoogle.cpp" />
+    <ClCompile Include="Subsets.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="980_UniquePathIII.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
